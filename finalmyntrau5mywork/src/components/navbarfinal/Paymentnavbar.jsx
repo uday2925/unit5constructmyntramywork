@@ -17,14 +17,14 @@ console.log("Location",Location)
 
 
 
- useEffect(()=>{
-  console.log(props);
-  if(props.selected===true)
-  {
-    navigate(props.href);
-    return;
-  }
-  },[props])
+//  useEffect(()=>{
+//   console.log(props);
+//   if(props.selected===true)
+//   {
+//     navigate(props.href);
+//     return;
+//   }
+//   },[props])
   
 
     return (      
